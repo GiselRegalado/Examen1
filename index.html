@@ -1,33 +1,32 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Precarga de Archivo css -->
-    <link rel="preload" href="css/styles.css" as="style">
-    <!-- Archivo css -->
     <link rel="stylesheet" href="css/styles.css">
-    <title>Login</title>
+    <title>Document</title>
 </head>
-<body>
 
-   <body class="body">
-    <img src="img/computadora.webp" alt="">
+<!--Contenedor principal -->
+<body class="contenedorprin">
+    <img src="img/computadora.webp" >
     <div class="formulario">
         <div class="superior">
-            <p>Sign in width</p>
+            <p>Sign in with</p>
+
             <div class="iconos">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="32"
-                    height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#3b5998" fill="none"
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="30"
+                    height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffff" fill="none"
                     stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
                 </svg>
             </div>
             <div class="iconos">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="32"
-                    height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#3b5998" fill="none"
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="30"
+                    height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffff" fill="none"
                     stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path
@@ -35,8 +34,8 @@
                 </svg>
             </div>
             <div class="iconos">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="32"
-                    height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#3b5998" fill="none"
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="30"
+                    height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffff" fill="none"
                     stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <rect x="4" y="4" width="16" height="16" rx="2" />
@@ -47,31 +46,40 @@
                 </svg>
             </div>
         </div>
-        <div class="medio">
+        <div class="or">
             <hr>
             <p>Or</p>
         </div>
-        <div class="inferior">
+
+        <!--Formulario-->
+        
+        <div class="formularioInferior">
             <label for="email" id="emailpass"></label>
+
             <input type="text" name="email" id="email" placeholder="Email address">
-            <label for="password" id="emailpass"></label>
+
+            <label for="password" id="email"></label>
+
             <input type="password" name="password" id="password" placeholder="Password">
-            <div class="contraseñas">
+
+            <!--Checkbox-->
+
+            <div class="cont">
                 <div class="checkbox">
-                    <input type="checkbox" name="rememberMe" id="rememberMe">
+                    <input type="checkbox" name="remember" id="remember">
                     <label for="rememberMe">Remember me</label>
                 </div>
                 <a href="">Forgot password</a>
             </div>
             <div class="nuevo">
 
+           <!--Boton de login-->
+
             </div>
             <a href="" id="login">LOGIN</a>
             <p>Don't have an account? <a href="">Register</a></p>
         </div>
     </div>
-  
 </body>
 
-</body>
 </html>
